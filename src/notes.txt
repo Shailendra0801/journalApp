@@ -1,0 +1,10 @@
+1. Maven is used to create build and manage dependencies.
+    - Phases of build lifecycles:
+        -> Validate: Validates the project is correct and all necessary information is available.
+        -> Compile: Compiles the source code of the project.
+        -> Test: Tests the compiled code using suitable unit testing framework. These test should not require the
+                 code to be packaged or deployed.
+        -> Package: Take the compiled code and package it in it's distributable format, such as JAR.
+        -> Verify: Run any checks on results of integration tests to ensure quality criteria are met.
+        -> Install: Install the package into local repository, for use as a dependency in other projects.
+        -> Deploy: Deploy the project.
