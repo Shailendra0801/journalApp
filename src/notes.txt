@@ -8,3 +8,8 @@
         -> Verify: Run any checks on results of integration tests to ensure quality criteria are met.
         -> Install: Install the package into local repository, for use as a dependency in other projects.
         -> Deploy: Deploy the project.
+2. IOC(Inversion of Control) Container: It contains objects.
+    * Application Context is a way to inplement IOC Container.
+3. @SpringBootApplication: (a) @Configuration
+                           (b) @EnableAutoConfiguration
+                           (c) @ComponentScan
