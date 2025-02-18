@@ -13,3 +13,4 @@
 3. @SpringBootApplication: (a) @Configuration
                            (b) @EnableAutoConfiguration
                            (c) @ComponentScan
+4. Rest API: Representational State Transfer Application Programming Interface
